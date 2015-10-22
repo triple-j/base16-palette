@@ -1,0 +1,18 @@
+// TODO?: turn into mixin to limit global variable clutter
+$b16-orig-base00: $base00;
+$b16-orig-base01: $base01;
+$b16-orig-base02: $base02;
+$b16-orig-base03: $base03;
+$b16-orig-base04: $base04;
+$b16-orig-base05: $base05;
+$b16-orig-base06: $base06;
+$b16-orig-base07: $base07;
+
+$base00: $b16-orig-base07;
+$base01: $b16-orig-base06;
+$base02: $b16-orig-base05;
+$base03: $b16-orig-base04;
+$base04: $b16-orig-base03;
+$base05: $b16-orig-base02;
+$base06: $b16-orig-base01;
+$base07: $b16-orig-base00;

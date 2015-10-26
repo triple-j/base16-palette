@@ -7,6 +7,16 @@ This package provides a simple set of sixteen colors to be used on the web via
 [base16](https://github.com/chriskempson/base16) repository.
 
 
+Usage
+-----
+
+```sass
+@import "./scss/color-schemes/solarized"; // Color Scheme (optional)
+@import "./scss/base16-palette";
+@import "./scss/helpers/classes";         // CSS Classes (optional)
+```
+
+
 Development
 -----------
 

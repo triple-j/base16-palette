@@ -22,18 +22,15 @@ Development
 
 ### Update Schemes
 
-```
-cd build
-```
-
 Install dependencies via `pip`:
 
 ```
-sudo pip install -r requirements.txt
+sudo pip install -r build/requirements.txt
 ```
 
-Run Scheme builder
+Run the scheme builder from the `build` folder
 
 ```
+cd build
 ./build_schemes.py
 ```

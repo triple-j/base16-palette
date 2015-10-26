@@ -60,7 +60,7 @@ for palette in palettes:
     for label in labels:
         colors[label] = root.find(".//*[@id='" + label + "']").attrib['stroke']
         
-        text += "$" + label + ": " + colors[label] + ";\n"
+        text += "$" + label + ": " + colors[label] + " !default;\n"
     
     print "Writing: " + title + " (" + filepath + ")"
     
